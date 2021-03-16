@@ -11,5 +11,5 @@ workflows:
     # Run the welcome/run job in its own container
     jobs:
       - welcome/run:
-          context:
+          context
             - org-context-1
